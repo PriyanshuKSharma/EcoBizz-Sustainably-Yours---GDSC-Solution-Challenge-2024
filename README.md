@@ -15,7 +15,7 @@ Get ready and join us in building a better world, one purchase at a time. Sustai
 2] Create an android or ios emulator
 3] Connect the respective emulator with this project
 4] After connecting the emulator write the following command:
-     ### flutter run 
+      flutter run 
 5] Now the apk is ready in the emulator
 
 ## How to create an apk
@@ -24,4 +24,4 @@ Get ready and join us in building a better world, one purchase at a time. Sustai
 3] Write your Flutter app code in your preferred IDE.
 4] Once your app is ready, open a terminal or command prompt in the root directory of your Flutter project.
 5] Run the following command to generate the APK:
-      ### flutter build apk
+      flutter build apk
