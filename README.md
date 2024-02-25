@@ -11,17 +11,17 @@ Flutter for cross-platform app development, Firebase for real-time data synchron
 Get ready and join us in building a better world, one purchase at a time. Sustainable Business Marketplace - where sustainability meets convenience.
 
 ## How to run
-1] Clone it into the local system
-2] Create an android or ios emulator
-3] Connect the respective emulator with this project
-4] After connecting the emulator write the following command:
-      flutter run 
+1] Clone it into the local system <br>
+2] Create an android or ios emulator <br>
+3] Connect the respective emulator with this project <br>
+4] After connecting the emulator write the following command:<br>
+      flutter run <br>
 5] Now the apk is ready in the emulator
 
 ## How to create an apk
-1] Ensure you have Flutter installed on your system. You can download it from the official Flutter website and follow the installation instructions.
-2] Make sure you have set up your development environment for Flutter, including Android Studio or VS Code with the Flutter and Dart plugins installed.
-3] Write your Flutter app code in your preferred IDE.
-4] Once your app is ready, open a terminal or command prompt in the root directory of your Flutter project.
-5] Run the following command to generate the APK:
+1] Ensure you have Flutter installed on your system. You can download it from the official Flutter website and follow the installation instructions. <br>
+2] Make sure you have set up your development environment for Flutter, including Android Studio or VS Code with the Flutter and Dart plugins installed. <br>
+3] Write your Flutter app code in your preferred IDE.<br>
+4] Once your app is ready, open a terminal or command prompt in the root directory of your Flutter project.<br>
+5] Run the following command to generate the APK:<br>
       flutter build apk
