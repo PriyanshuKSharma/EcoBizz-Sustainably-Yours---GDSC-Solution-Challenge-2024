@@ -25,3 +25,9 @@ Get ready and join us in building a better world, one purchase at a time. Sustai
 4] Once your app is ready, open a terminal or command prompt in the root directory of your Flutter project.<br>
 5] Run the following command to generate the APK:<br>
       flutter build apk
+
+Project Developers:
+Priyanshu K Sharma
+Prajwal C Ulli
+Gaurav Salunke
+Neha Gaikwad
