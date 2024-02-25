@@ -1,16 +1,8 @@
-# design_first_1
+# Ecobizz
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Transparency is key. We provide detailed information on environmental and ethical standards, empowering consumers to make informed decisions that align with their values.
+By promoting responsible consumption and production, the Sustainable Business Marketplace is not just a platform - it's a movement towards a more sustainable future.
+Aligned with UN Sustainable Development Goals, our platform contributes to responsible consumption, production, and climate action
+Technologies used - 
+Flutter for cross-platform app development, Firebase for real-time data synchronization
+Get ready and join us in building a better world, one purchase at a time. Sustainable Business Marketplace - where sustainability meets convenience.
