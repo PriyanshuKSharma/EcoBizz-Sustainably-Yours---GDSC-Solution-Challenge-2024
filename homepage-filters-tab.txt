@@ -1,0 +1,97 @@
+import 'package:flutter/material.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  final List<String> categories = [
+    'All',
+    'Apparel',
+    'Accessories',
+    'Health & Wellness',
+    'Outdoor Gear',
+    'Stationery',
+  ];
+  String selectedCategory = 'All';
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(8.0),
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: categories.map((category) {
+                  return Row(
+                    children: [
+                      CustomChip(
+                        label: category,
+                        selected: selectedCategory == category,
+                        onSelected: (selected) {
+                          setState(() {
+                            selectedCategory = category;
+                          });
+                        },
+                      ),
+                      const SizedBox(width: 20), // adjust the width as needed
+                    ],
+                  );
+                }).toList(),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class CustomChip extends StatelessWidget {
+  final String label;
+  final bool selected;
+  final Function(bool)? onSelected;
+
+  const CustomChip({
+    Key? key,
+    required this.label,
+    required this.selected,
+    this.onSelected,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {
+        if (onSelected != null) {
+          onSelected!(true);
+        }
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 2.0),
+        decoration: BoxDecoration(
+          color: selected
+              ? const Color(0xff66BB6A)
+              : null, // change the color when selected
+          border: Border.all(color: Colors.white),
+          borderRadius: BorderRadius.circular(5.0),
+        ),
+        child: Text(
+          label,
+          style: TextStyle(
+            color: selected
+                ? Colors.white
+                : const Color(
+                    0xff2f4858), // change the text color when selected
+          ),
+        ),
+      ),
+    );
+  }
+}
