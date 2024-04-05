@@ -26,7 +26,7 @@ Get ready and join us in building a better world, one purchase at a time. Sustai
 5] Run the following command to generate the APK:<br>
       flutter build apk
 
-Project Developers:
+## Project Developers:<br>
 Priyanshu K Sharma,<br>
 Prajwal C Ulli,<br>
 Gaurav Salunke,<br>
