@@ -27,7 +27,7 @@ Get ready and join us in building a better world, one purchase at a time. Sustai
       flutter build apk
 
 Project Developers:
-Priyanshu K Sharma,
-Prajwal C Ulli,
-Gaurav Salunke,
+Priyanshu K Sharma,<br>
+Prajwal C Ulli,<br>
+Gaurav Salunke,<br>
 Neha Gaikwad,
