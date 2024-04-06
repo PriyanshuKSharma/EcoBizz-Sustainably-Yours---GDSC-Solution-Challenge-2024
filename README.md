@@ -15,7 +15,8 @@ Get ready and join us in building a better world, one purchase at a time. Sustai
 2] Create an android or ios emulator <br>
 3] Connect the respective emulator with this project <br>
 4] After connecting the emulator write the following command:<br>
-      flutter run <br>
+      '''bash
+      flutter run 
 5] Now the apk is ready in the emulator
 
 ## How to create an apk
